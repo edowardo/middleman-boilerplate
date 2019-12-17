@@ -1,10 +1,123 @@
 ---
-title: Le Wagon Middleman boilerplate
+title: Edward Blundell
+description: Full Stack Web Developer
 ---
 
-<div class="welcome text-center padded">
-  <h1>You're <a href="https://www.lewagon.com">Le Wagon</a>'s boilerplate!</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<!-- Social Icons at top -->
+<div id="icons-box">
+  <a href="#" class="social-icons" id="initials-icon"><span>EB</span></a>
+  <ul class="social-icons">
+    <li><a href="https://www.linkedin.com/in/edward-blundell/"><i class="fab fa-linkedin"></i></a></li>
+    <li><a href="https://github.com/edowardo"><i class="fab fa-github-square"></i></i></a></li>
+    <li> <a href="#contact-form"><i class="fas fa-envelope-square"></i></a></li>
+  </ul>
+</div>
+
+
+<!-- Main Area -->
+<div class="container">
+
+  <!-- Name and title -->
+  <div id="name-box">
+    <h1 id="name-content">Edward Blundell</h1>
+  </div>
+  <h3 id="sub-title">
+    Full Stack Developer
+  </h3>
+
+  <!-- Project Cards -->
+  <div class="card" id="about-me">
+    <div class="card-title">About</div>
+    <div class="card-content">
+      <div class="card-text">
+        My name is Edward, I am a full stack developer. I was raised in London, and have lived & worked in Brighton and Okayama. I’m currently based in Tokyo, where I completed the world's no.1 coding bootcamp, Le Wagon, and am ready to take on the world.
+        <br><br> I’ve been a teacher and a tour guide, and in my spare time I ride bikes, sing karaoke and play games (video and board).
+      </div>
+    </div>
+  </div>
+
+  <!-- Ronpa -->
+  <div class="card card-right">
+    <div class="card-title">Project</div>
+    <div class="card-content">
+      <a href="http://www.ronpa.org/" target="_blank">
+        <div class="card-img" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('images/RonpaHome.png');">
+          <%= image_tag 'RonpaHome.png', :class => 'card-img-hidden' %>
+        </div>
+      </a>
+      <div class="card-text">
+        Ronpa - Debate the things that matter live, online.
+        <br><br>This debate app was born to enable structured, live discussion of any issue. Unlike the multitude of text-based discussion platforms online, Ronpa brings people face to face.
+        <br><br>
+        <a href="http://www.ronpa.org/">http://www.ronpa.org/</a>
+      </div>
+    </div>
+  </div>
+  <!-- Swapsies -->
+  <div class="card">
+    <div class="card-title">Project</div>
+    <div class="card-content">
+      <a href="http://gameswapsies.herokuapp.com/" target="_blank">
+        <div class="card-img" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('images/SwapsiesHome.png');">
+          <%= image_tag 'SwapsiesHome.png', :class => 'card-img-hidden' %>
+        </div>
+      </a>
+      <div class="card-text">
+        Swapsies - Swap old used games for new used games
+        <br><br>Tired of getting peanuts for your unwanted games at second hand stores? Now you can swap them with other game enthusiasts and cut out the middleman.
+        <br><br>
+        <a href="http://gameswapsies.herokuapp.com/">http://gameswapsies.herokuapp.com/</a>
+      </div>
+    </div>
+  </div>
+  <!-- Midnight Emporium -->
+  <div class="card card-right">
+    <div class="card-title">Project</div>
+    <div class="card-content">
+      <a href="https://midnight-emporium.herokuapp.com/" target="_blank">
+        <div class="card-img" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('images/MidnightEmporiumHome.png');">
+          <%= image_tag 'MidnightEmporiumHome.png', :class => 'card-img-hidden' %>
+        </div>
+      </a>
+      <div class="card-text">
+        Midnight Emporium - The one stop shop for great cocktail recipes
+        <br><br>Solo project. Simple web app for storing cocktail recipes. Built to practice database design and front end tech.
+        <br><br>
+        <a href="https://midnight-emporium.herokuapp.com/">https://midnight-emporium.herokuapp.com/</a>
+      </div>
+    </div>
+  </div>
+  <!-- Project Cards End -->
+
+  <!-- Contact Form -->
+
+  <a name="contact-form"></a>
+  <div class="card">
+    <div class="card-title">Message</div>
+    <div class="card-content contact-form">
+      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/ewblundell@gmail.com" method="post">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <input class="form-control" type="text" name="name" id="full-name" placeholder="Name" required="">
+          </div>
+          <div class="form-group col-md-6">
+            <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="Email" required="">
+          </div>
+        </div>
+        <div class="form-row">
+          <textarea class="form-control" rows="5" name="message" id="message" placeholder="Message" required=""></textarea>
+        </div>
+        <div class="form-row">
+        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        <input type="submit" value="Submit" class="btn" id="button">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+
+<div class="footer"></div>
+
+<!-- linear-gradient(rgba(0,0,0,0.1),rgba(16,16,20,1)), -->

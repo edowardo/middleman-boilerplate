@@ -2,9 +2,11 @@
  * Fonts
  * ------------------------------------- */
 // Google fonts
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
-$base-font: "Open Sans", "Helvetica", "sans-serif";
-$header-font: "Montserrat", "sans-serif";
+// @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+$base-font: "Baskerville";
+$header-font: "Baskerville";
+
 
 // Local fonts (uncomment following lines)
 // @font-face {
@@ -37,3 +39,9 @@ $gray-dark:    lighten(#000, 20%);   // #333
 $gray:         lighten(#000, 33.5%); // #555
 $gray-light:   lighten(#000, 46.7%); // #777
 $gray-lighter: lighten(#000, 93.5%); // #eee
+
+// My Colours
+$white:     #FAFAFA;
+$teal:      #06BFAD;
+$navy:      #124559;
+$burgundy:  #AB2346;

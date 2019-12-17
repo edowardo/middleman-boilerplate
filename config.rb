@@ -71,3 +71,7 @@ configure :build do
   require_relative "./lib/build_cleaner"
   activate :build_cleaner
 end
+
+
+# Add mailto obfuscation
+activate :protect_emails

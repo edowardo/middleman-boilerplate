@@ -26,3 +26,6 @@ gem 'font-awesome-sass'
 gem 'sass-globbing'
 ## Middleman sprockets
 gem 'middleman-sprockets'
+
+# My Gems
+gem 'middleman-protect-emails'
